@@ -88,7 +88,7 @@ body {
 
 @media (max-width: 426px) {
     .hero {
-        height: 60vh;
+        height: 80vh;
     }
 
     .hero h2 {
