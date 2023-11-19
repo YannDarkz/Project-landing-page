@@ -67,7 +67,8 @@
 }
 
 .header input:checked ~ label .hamburguer{
-    transform: rotate(45deg);
+    transform: rotate(135deg);
+    
 }
 
 .header input:checked ~ label .hamburguer:before{

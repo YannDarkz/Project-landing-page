@@ -24,6 +24,10 @@ body {
 .header {
     grid-area: header;
     background-color: #fff;
+    position: fixed;
+    width: 100vw;
+      z-index: 1;
+    top: 0;
 }
 
 .header .header-container {
@@ -72,7 +76,7 @@ body {
     animation: downarrow 0.6s infinite alternate ease-in-out;
 }
 
-@-webkit-keyframes downarrow {
+@keyframes downarrow {
     0% {
         -webkit-transform: translateY(0);
         opacity: 0.4;
@@ -104,6 +108,7 @@ body {
     grid-area: about;
     display: grid;
     grid-template-columns: 1fr 1fr;
+
     background-color: #fff;
     max-width: var(--max-width-size);
     margin: 0 auto;
@@ -131,7 +136,8 @@ body {
 
 .about .item .btn-know-more {
     font-size: 1.6rem;
-    align-self: flex-start;
+     align-self: flex-start;  
+     
 }
 
 .about .item .btn-know-more:hover {

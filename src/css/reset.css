@@ -5,6 +5,7 @@
     border: none;
     outline: none;
     font-weight: 300;
+    scroll-behavior: smooth;
 
 }
 
